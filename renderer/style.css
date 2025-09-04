@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 body {
-  margin: 0 !important;
+  margin: 0;
   font-family: "Inter", sans-serif;
   font-size: 15px;
   height: calc(100vh - 72px);
@@ -504,7 +504,7 @@ span.minus_ic svg {
 .zoom-option span.data_size {
   background: transparent;
   padding: 5px;
-  width: auto !important;
+  width: auto;
   height: auto;
 }
 
@@ -706,8 +706,8 @@ span.file-ic {
   padding: 7px 15px;
   border-radius: 5px;
   border: solid 1px #d4d4d4;
-  overflow-clip-margin: unset !important;
-  overflow: unset !important;
+  overflow-clip-margin: unset;
+  overflow: unset;
 }
 .search-box button {
   position: absolute;
