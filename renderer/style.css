@@ -806,7 +806,7 @@ button.close-btn {
   font-weight: 500;
 }
 .pagination-page button {
-  background: #145dd1 !important;
+  background: #145dd1;
   padding: 14px 7px;
   height: 100%;
   border-radius: 5px;
