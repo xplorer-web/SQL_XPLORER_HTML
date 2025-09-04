@@ -46,18 +46,3 @@ function closeTab(event, btn) {
 
   tab.remove();
 }
-// async function loadComponent(id, file) {
-//   try {
-//     const response = await fetch(components/${file});
-//     const html = await response.text();
-//     document.getElementById(id).innerHTML = html;
-//   } catch (error) {
-//     console.error("Failed to load  content:", error);
-//   }
-// }
-
-// window.addEventListener("DOMContentLoaded", () => {
-//   loadComponent("right-sidebar", "right.html");
-//   //   loadComponent("sidebar", "sidebar.html");
-//   //   loadComponent("footer", "footer.html");
-// });
