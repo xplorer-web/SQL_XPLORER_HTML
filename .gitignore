@@ -1,0 +1,86 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Build output
+dist/
+out/
+build/
+release/
+*.asar
+*.asar.unpacked
+
+# Electron forge / builder / packager
+/.cache
+/.webpack
+/.parcel-cache
+/.vite
+/coverage
+/.nyc_output
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env.*.local
+
+# Compiled
+*.tsbuildinfo
+
+# Electron-builder output
+*.dmg
+*.exe
+*.msi
+*.app
+*.deb
+*.rpm
+*.snap
+
+# Windows installer artifacts
+*.nupkg
+*.blockmap
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+# Mac installer artifacts
+*.pkg
+*.dmg
+*.dmg.blockmap
+
+# Linux installer artifacts
+*.AppImage
+*.tar.gz
+*.snap
+
+# Misc
+.idea/
+.cache/
+tmp/
+temp/

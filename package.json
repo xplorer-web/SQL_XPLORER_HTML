@@ -1,0 +1,23 @@
+{
+  "name": "sql-xplorer-electron",
+  "version": "1.0.0",
+  "description": "SQL_XPLORER_HTML",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron . --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xplorer-web/SQL_XPLORER_HTML.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xplorer-web/SQL_XPLORER_HTML/issues"
+  },
+  "homepage": "https://github.com/xplorer-web/SQL_XPLORER_HTML#readme",
+  "devDependencies": {
+    "electron": "^38.0.0"
+  }
+}
