@@ -551,7 +551,7 @@ span.minus_ic svg {
   border: 0;
 }
 .code-file {
-  /* margin-bottom: 7px; */
+  margin-bottom: 0px;
 }
 .terminal-wrap {
   /* border-top: solid 1px #d4d4d4; */
