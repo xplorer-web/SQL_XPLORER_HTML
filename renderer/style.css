@@ -551,7 +551,7 @@ span.minus_ic svg {
   border: 0;
 }
 .code-file {
-  margin-bottom: 0px;
+  /* margin-bottom: 7px; */
 }
 .terminal-wrap {
   /* border-top: solid 1px #d4d4d4; */
@@ -811,11 +811,4 @@ button.close-btn {
   height: 100%;
   border-radius: 5px;
   color: #fff;
-}
-.file-wrap ul li a span {
-  display: flex;
-  align-items: center;
-}
-.file-wrap ul li a span svg path {
-  fill: #7d7d7d;
 }
