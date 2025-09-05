@@ -23,6 +23,8 @@
     "nodemon": "^3.1.10"
   },
   "dependencies": {
+    "cluster": "^0.7.7",
+    "clusterize.js": "^1.0.0",
     "monaco-editor": "^0.52.2"
   }
 }

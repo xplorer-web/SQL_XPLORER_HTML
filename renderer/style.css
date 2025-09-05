@@ -298,6 +298,8 @@ span.close-ic {
   height: calc(50vh - 223px);
   background: #fff;
   overflow-x: auto;
+  min-height: 200px;
+  overflow-y: auto;
 }
 .file-path {
   display: flex;
@@ -811,4 +813,34 @@ button.close-btn {
   height: 100%;
   border-radius: 5px;
   color: #fff;
+}
+/* Table Css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th {
+    background: #343a40;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tr:hover {
+    background-color: #e9ecef;
 }
